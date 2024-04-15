@@ -79,8 +79,8 @@ $models = $IAPI->get_all_models();
             for (var it of res)
             {
                 contEl.innerHTML += `
-                <a href="?partID=${it.id}">
-                    <div class="card mb-3 w-100 __delete" style="cursor: pointer">
+                <a href="?partID=${it.id}" class="__delete">
+                    <div class="card mb-3 w-100" style="cursor: pointer">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="https://static.wikia.nocookie.net/villains/images/e/e1/800px_COLOURBOX21949372.jpg" class="img-fluid rounded-start">
